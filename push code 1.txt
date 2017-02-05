@@ -1,0 +1,31 @@
+KIPS@DESKTOP-UO6QHE8 UCRT64 ~/Desktop/test
+$ git init
+Initialized empty Git repository in C:/Users/KIPS/Desktop/test/.git/
+
+KIPS@DESKTOP-UO6QHE8 UCRT64 ~/Desktop/test (master)
+$ git add test.html
+
+KIPS@DESKTOP-UO6QHE8 UCRT64 ~/Desktop/test (master)
+$ git commit -m "Done"
+[master (root-commit) 2afb5eb] Done
+ 1 file changed, 11 insertions(+)
+ create mode 100644 test.html
+
+KIPS@DESKTOP-UO6QHE8 UCRT64 ~/Desktop/test (master)
+$ git branch -M main
+
+KIPS@DESKTOP-UO6QHE8 UCRT64 ~/Desktop/test (main)
+$ git remote add origin https://github.com/niteshnandane/test-code.git
+
+KIPS@DESKTOP-UO6QHE8 UCRT64 ~/Desktop/test (main)
+$ git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 370 bytes | 370.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/niteshnandane/test-code.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.

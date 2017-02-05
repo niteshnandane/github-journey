@@ -1,0 +1,25 @@
+                                            WELCOME TO GIT & GITHUB
+
+KIPS@DESKTOP-UO6QHE8 UCRT64 ~/Desktop/test
+$ git  config --global user.name "nitesh"
+
+KIPS@DESKTOP-UO6QHE8 UCRT64 ~/Desktop/test
+$ git config --global user.email "niteshmca24ipsacademy.org"
+
+KIPS@DESKTOP-UO6QHE8 UCRT64 ~/Desktop/test
+$ git config  --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=nitesh
+user.email=niteshmca24ipsacademy.org
